@@ -3,6 +3,7 @@ package calculateMax;
 import java.util.Scanner;
 
 public class CalculateMax {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a, b, c;

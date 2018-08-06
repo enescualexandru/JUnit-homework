@@ -3,6 +3,7 @@ package conversion;
 import java.util.Scanner;
 
 public class Conversion {
+
     public static void main(String[] args) {
         double fahrenheitDeg;
         Scanner scanner = new Scanner(System.in);

@@ -3,6 +3,7 @@ package dataValidation;
 import java.util.Scanner;
 
 public class DataValidation {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         byte hour, minute;
