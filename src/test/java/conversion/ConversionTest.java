@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class ConversionTest {
+
     Conversion conversion = new Conversion();
     @Before
     public void beforeMethod() {

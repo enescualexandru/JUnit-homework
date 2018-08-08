@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class CalculateMaxTest {
+
     CalculateMax calculateMax = new CalculateMax();
     @Before
     public void beforeMethod() {

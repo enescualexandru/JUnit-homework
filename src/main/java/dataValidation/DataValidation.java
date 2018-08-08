@@ -21,14 +21,10 @@ public class DataValidation {
 
     public static boolean validateTime(int hour, int minute) {
 
-        return (hour < 24 && minute < 60) && (hour >=0 && minute >= 0);
+        return (hour < 24 && minute < 60) && (hour >= 0 && minute >= 0);
     }
 
     public static String formatTime(int hour, int minute) {
-        // returns correct time format, always as hhmm.
-        String format = "";
-        format += hour < 10 ? "0" + Integer.toString(hour) : Integer.toString(hour);
-        format += minute < 10 ? "0" + Integer.toString(minute) :Integer.toString(minute);
-        return format;
+        return String.format("%02d", hour) + String.format("%02d", minute);
     }
 }
