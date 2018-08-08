@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class DataValidationTest {
+
     DataValidation dataValidation = new DataValidation();
     @Before
     public void beforeMethod() {
